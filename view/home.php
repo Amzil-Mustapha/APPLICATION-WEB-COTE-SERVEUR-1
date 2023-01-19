@@ -23,6 +23,10 @@ session_start();
     EMAIL    :           <?= $_SESSION['respEmail']?>
 
     PASSWORD :           <?= $_SESSION['respPass']?>
+
+
+
+    Go To: <ul><li><a href="action.php">Action Par Type</a></li><li><a href=".php">Inscrire - Donateur</a></li></ul>
 </pre>
 </body>
 </html>

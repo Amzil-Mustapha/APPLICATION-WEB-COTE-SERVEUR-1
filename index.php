@@ -46,17 +46,19 @@ if (isset($_POST['submit'])) {
     <pre>
     <form action="" method="post">
 
-        Full Name:                   <input type="text" name="name">
+        Full Name (respo Name):            <input type="text" name="name">
 
-        Email:                       <input type="text" name="email">
+        Email (respo Email):               <input type="text" name="email">
 
-        Password:                    <input type="password" name="password">
+        Password (respo Password):         <input type="password" name="password">
 
 
         <button type="submit" name="submit">Login</button>
     </form>
-
     <?= $message ?>
-    </pre>
+    <a href="view/donateurInsert.php">Donateur Inscrire</a>
+
+</pre>
+    <small> Hint! The Project Is Not Completed Yet</small>
 </body>
 </html>
