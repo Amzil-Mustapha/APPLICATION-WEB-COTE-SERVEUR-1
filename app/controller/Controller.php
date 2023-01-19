@@ -74,5 +74,13 @@ class Controller extends Db
         }
     }
 
-    
+    public function getTotalMontantByType($idType)
+    {
+        $db = new Db();
+        $db->connect();
+
+        $rs = $db->selectQuery("SELECT func_q3($idType)");
+
+        return $rs->fetch()[0];
+    }
 }

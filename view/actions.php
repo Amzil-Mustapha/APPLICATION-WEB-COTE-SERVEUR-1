@@ -35,7 +35,10 @@ foreach ($o->allType as $ele) {
     ?>
     </select>
 
-    Actions......:             <ul id="action"></ul>
+    Actions:<ul id="action"></ul>
+
+    Montant Total Par Type: <input type="text" id="mtbt" disabled>
+
     </pre>
 
     <script src="../src/js/jquery-3.6.3.min.js"></script>

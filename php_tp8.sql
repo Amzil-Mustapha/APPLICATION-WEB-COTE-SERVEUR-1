@@ -132,8 +132,8 @@ INSERT INTO `donateur` (`idD`, `nomD`, `prenomD`, `emailD`, `passD`) VALUES
 (1, 'asa', 'mohamed', 'moh@email.com', 'dskjezoeon,n'),
 (2, 'trii', 'othmane', 'oth@email.com', 'dlzeoi13'),
 (3, 'eakd', 'ahmed', 'ahmed@gmail.com', 'dslkjzeo287'),
-(12, 'amzil', 'Mustapha', 'booksamzil99@gmail.com', 'AZE'),
-(13, 'amzil', 'Mustapha', 'mustaphaamzil124@gmail.com', 'aaa');
+(12, 'amzil', 'Mustapha', 'b9@gmail.com', 'AZE'),
+(13, 'amzil', 'Mustapha', 'must@gmail.com', 'aaa');
 
 -- --------------------------------------------------------
 

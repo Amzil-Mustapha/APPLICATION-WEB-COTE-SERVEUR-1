@@ -7,17 +7,19 @@ class  Action
     private $description;
     private $dateCreation;
     private $dateFin;
+    private $montantAct;
     private $nomBeneficiare;
     private $dateDerniereDon;
     private $idType;
     private $idResp;
 
-    public function __construct($idAct, $nomAct, $description, $dateCreation, $dateFin, $nomBeneficiare, $prenBeneficiare, $dateDerniereDon, $idType, $idResp) {
+    public function __construct($idAct, $nomAct, $description, $dateCreation, $dateFin,$montantAct, $nomBeneficiare, $dateDerniereDon, $idType, $idResp) {
         $this->idAct = $idAct;
         $this->nomAct = $nomAct;
         $this->description = $description;
         $this->dateCreation = $dateCreation;
         $this->dateFin = $dateFin;
+        $this->montantAct = $montantAct;
         $this->nomBeneficiare = $nomBeneficiare;
         $this->dateDerniereDon = $dateDerniereDon;
         $this->idType = $idType;
@@ -72,6 +74,16 @@ class  Action
     public function setDateFin($dateFin)
     {
         $this->dateFin = $dateFin;
+    }
+
+    public function getMontantBeneficiare()
+    {
+        return $this->montantAct;
+    }
+
+    public function setMontantBeneficiare($montantAct)
+    {
+        $this->montantAct = $montantAct;
     }
 
     public function getNomBeneficiare()
