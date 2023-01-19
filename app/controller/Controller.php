@@ -73,4 +73,6 @@ class Controller extends Db
             $this->allActiontByType[] = $action;
         }
     }
+
+    
 }
